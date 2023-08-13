@@ -1,0 +1,25 @@
+
+body {
+  background-image: url("images/white\ background.jpg");
+  background-color: #cccccc;
+ }.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+.overflow-hidden{
+  justify-content: center;
+}
+/*.text{
+  display: none;
+}
+.text.show-more{
+  display: inline;
+}*/
+.more-text{
+  display: none;
+}
+.more-text .show-more{
+  display: inline;
+}
+
