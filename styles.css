@@ -16,9 +16,9 @@ body {
 .text.show-more{
   display: inline;
 }*/
-.more-text{
+/* .more-text{
   display: none;
-}
+} */
 .more-text .show-more{
   display: inline;
 }
