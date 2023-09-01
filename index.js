@@ -1,10 +1,11 @@
-/*const showMore = document.querySelectorAll(".showMore"); // link with Show More text
+const showMore = document.querySelectorAll(".showMore"); // link with Show More text
 const text = document.querySelectorAll(".more-text"); //span
 
-for (var i = 0; i < showMore.length; i++)
+for (let i = 0; i < showMore.length; i++)
 {
     showMore[i].addEventListener('click', (e)=>{
-        text[i].classList.toggle('show-more');
+        console.log(text,i);
+        text[i].classList.toggle('show-more'); // add show-more class on the more-text class
         if(showMore[i].innerText === "Show More")
         {
             showMore[i].innerText = "Show Less";
@@ -12,21 +13,5 @@ for (var i = 0; i < showMore.length; i++)
             showMore[i].innerText = "Show More";
         }
     })
-}*/
-
-// for (i = 0; i < document.querySelectorAll(".showMore").length; i++)
-// {
-//     document.querySelectorAll(".showMore")[i].addEventListener('click', (e)=>{
-//         document.querySelectorAll(".more-text")[i].toggle('show-more');
-//         if(document.querySelectorAll(".showMore")[i].innerText === "Show More")
-//         {
-//             document.querySelectorAll(".showMore")[i].innerText = "Show Less";
-//         }else{
-//             document.querySelectorAll(".showMore")[i].innerText = "Show More";
-//         }
-    
-//     })
-
-
-// }
+}
 

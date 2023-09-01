@@ -10,16 +10,16 @@ body {
 .overflow-hidden{
   justify-content: center;
 }
-/*.text{
+.text{
   display: none;
 }
 .text.show-more{
   display: inline;
-}*/
-/* .more-text{
+}
+.more-text{
   display: none;
-} */
-.more-text .show-more{
+}
+.more-text.show-more{
   display: inline;
 }
 
